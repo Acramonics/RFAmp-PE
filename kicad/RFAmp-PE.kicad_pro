@@ -76,7 +76,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|85385000|91040000|92d235fa-b5c1-4487-a415-12a498993af4|4c46b573-490b-4137-821d-fd96b193a15c",
+          ""
+        ],
+        [
+          "text_height|64650000|99800000|bf75c59c-4508-4abf-89e3-3af70671f657|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|71600000|97650000|0a4dc679-30d1-434d-8ee9-53d6924ecd10|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|75450000|87700000|1a7a3fe1-8482-4e6a-89a7-b2a758e391d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|77550000|96100000|f3bde6ae-26bf-48c2-aa6f-0dc63949c4d7|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -146,7 +167,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.45,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -541,7 +562,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "RFPreamp_PE_gerber",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -678,7 +699,7 @@
         "uuid": "204a89a2-fb4e-424a-9da7-86842293248c"
       }
     ],
-    "used_designators": "L1,RV1-2,#PWR1-3,J1-5,Q1-3,D1-4,C1-8,R1-6",
+    "used_designators": "L1,RV1-2,#PWR1-4,J1-5,Q1-3,D1-4,C1-8,R1-6",
     "variants": []
   },
   "sheets": [
